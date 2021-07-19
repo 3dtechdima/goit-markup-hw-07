@@ -48,7 +48,6 @@
 
 .menu-list__link--marker {
   color: var(--brand-color);
-  margin-left: -50px;
 
   &::after {
     position: absolute;
@@ -58,7 +57,23 @@
     height: 4px;
     background: var(--brand-color);
     border-radius: 2px;
+    margin-left: 50px;
+    margin-top: 24px;
+  }
+}
 
+.menu-list__link--marker-partfolio {
+  color: var(--brand-color);
+
+  &::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 78px;
+    height: 4px;
+    background: var(--brand-color);
+    border-radius: 2px;
+    margin-left: 50px;
     margin-top: 24px;
   }
 }
