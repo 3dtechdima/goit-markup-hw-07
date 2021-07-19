@@ -1,0 +1,41 @@
+.section-advantages {
+  margin: 0 auto;
+}
+
+.description-benefits {
+  display: flex;
+  margin-left: 0px;
+}
+.description-benefits__list {
+  margin: 0 auto;
+}
+
+.advantages-text__paragraph {
+  font-family: var(--font-family-roboto);
+  font-weight: 400;
+  padding-top: 10px;
+  width: 270px;
+  height: 75px;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+.advantages-text__title {
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.shelf-image__icons {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.shelf-image {
+  background: #f5f4fa;
+  border-radius: 4px;
+}

@@ -1,0 +1,46 @@
+.icons-clients {
+  margin-top: 50px;
+}
+.container-icons {
+  cursor: pointer;
+}
+
+.icons-clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+.container__title {
+  font-family: var(--font-family-roboto);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.icons-clients-list__shelf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1bb;
+  border-radius: 4px;
+  &:focus {
+    border-color: var(--brand-color);
+    cursor: pointer;
+  }
+  &:hover {
+    border-color: var(--brand-color);
+    cursor: pointer;
+  }
+  &:hover .icons-clients-svg {
+    fill: var(--brand-color);
+  }
+  &:focus .icons-clients-svg {
+    fill: var(--brand-color);
+  }
+}
+.icons-clients-svg {
+  fill: var(--text-color);
+}
